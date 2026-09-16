@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int numero;
+
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &numero);
+
+    // Exibe o mesmo valor nos quatro formatos exigidos
+    printf("Decimal: %d | Hexadecimal: %x | Octal: %o | ASCII: %c\n", 
+           numero, numero, numero, numero);
+
+    return 0;
+}
